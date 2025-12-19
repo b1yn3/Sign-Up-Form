@@ -99,7 +99,14 @@ main a{
 
 input{
     width: 225px;
+    border-radius: 3px;
+    opacity: 0.5;
 }
+
+input:focus{
+    border-color: blue;
+}
+
 
 button{
     background-color: #596d48;
