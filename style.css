@@ -59,6 +59,16 @@ main{
     background-color: #f9fafb;
 }
 
+main p{
+    margin: 20px;
+    font-size: 15px;
+}
+
+main a{
+    color: #596d48;
+    text-decoration: none;
+}
+
 .top-text {
     margin: 100px 0px 30px 20px;
     width: 80%;
@@ -85,5 +95,23 @@ main{
 
 .sign-upsection form label{
     font-size: 12px;
+}
+
+input{
+    width: 225px;
+}
+
+button{
+    background-color: #596d48;
+    border: none;
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    margin: 20px 0px 20px 30px
+}
+
+button:hover{
+    cursor: pointer;
 }
 
